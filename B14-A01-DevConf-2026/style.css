@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.top-part-container{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    color: #575757;
+    
+}
+.common-button{
+    background-color: blue;
+    height: 2%;
+    color: azure;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 35px;
+    align-items: center;
+    
+    
+
+}
+
+.first-img{
+    margin: 30px;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    gap: 18%;
+    background-image:  url('./assets/banner.jpg');
+   height: 60vh;
+   background-repeat: cover;
+   background-position: center;
+  background-size: 75%;
+   
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-between;
+   
+.card-container div{
+    background-color: rgb(151, 38, 38);
+    width: 200px;
+    height: 200px;
+}
+
