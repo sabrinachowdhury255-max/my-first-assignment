@@ -1,0 +1,1 @@
+i wanna create a newsletter sign up section where the user can sign up to the newsletter using their email address provided in a email insert box with a button named subscribe and a heading named "subscribe to the newsletter for free using basic html 5 and add css style to it
