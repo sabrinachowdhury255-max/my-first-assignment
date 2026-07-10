@@ -27,6 +27,7 @@ ul{
 .common-button{
     background-color: blue;
     height: 2%;
+    width: 20vh;
     color: azure;
     border: none;
     border-radius: 8px;
@@ -42,6 +43,11 @@ ul{
     margin: 30px;
 }
 
+.card-container-heading{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
 header {
     display: grid;
     justify-content: center;
@@ -50,21 +56,108 @@ header {
     text-align: center;
     gap: 18%;
     background-image:  url('./assets/banner.jpg');
-   height: 60vh;
-   background-repeat: cover;
+   height: 100vh;
+   background-repeat: no-repeat;
    background-position: center;
-  background-size: 75%;
+  background-size: cover;
    
+}
+header .second-part {
+padding-top: 25%;
 }
 .card-container{
     display: grid;
+    text-align: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    justify-content: space-between;
-   
-.card-container div{
-    background-color: rgb(151, 38, 38);
-    width: 200px;
-    height: 200px;
+    background-color: white;
+    border-color: #575757;
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+    gap: 35px;
+    margin-left: 2%;
+    border-radius: 3%;
+    padding: 5%;
+    
 }
 
+ .card-1 img{
+    border-radius: 3% ;
+}
+.card-2 img{
+    border-radius: 3% ;
+}
+.card-3 img{
+    border-radius: 3% ;
+}
+.card-4 img{
+    border-radius: 3% ;
+}
+
+.spot p{
+    color: #575757;
+}
+
+.spot{
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.second-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-color: #575757;
+    padding: 10%;
+}
+.card-5{
+    background-color: aliceblue;
+    border-color: #3741cf;
+    padding: 3%;
+    border-radius: 3%;
+    border-bottom: #575757;
+    
+}
+.card-5 button{
+    color: blue;
+    background-color: #E5E7EB;
+    width: 15vh;
+    
+    
+}
+
+.card-6{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    border-color: #3741cf;
+    padding: 3%;
+    border-radius: 3%;
+    border-bottom: #575757;
+    
+}
+.card-6 button{
+    color: blue;
+    background-color: white;
+    width: 15vh;
+}
+.card-7{
+    background-color: #E5E7EB;
+    color: #1a1919;
+    border-color: #3741cf;
+    padding: 3%;
+    border-radius: 3%;
+    border-bottom: #575757;
+    
+}
+.card-7 button{
+    color: blue;
+    background-color: white;
+    width: 15vh;
+}
